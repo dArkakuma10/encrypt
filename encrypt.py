@@ -11,7 +11,7 @@ class Encrypt:
         print ("Encrypted Data: " , "" .join (chr (i) for i in self.res))
        
 
-
+#
 class Decrypt (Encrypt):
     def receiver (self):
        decrypted_data = "". join(chr (i - 2) for i in self.res)
